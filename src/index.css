@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+  overflow-y: auto !important;
+}
+
+#task-list-graph-d3-graph-wrapper .task-run-icon-pending:hover{
+  filter:drop-shadow(0px 0px 2px gray);
+}
+#task-list-graph-d3-graph-wrapper .task-run-icon-success:hover{
+  filter:drop-shadow(0px 0px 2px green);
+}
+#task-list-graph-d3-graph-wrapper .task-run-icon-error:hover{
+  filter:drop-shadow(0px 0px 2px red);
+}
